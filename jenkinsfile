@@ -16,8 +16,8 @@ pipeline {
 
         stage('Read Files') {
             steps {
-                sh 'cat first-file.txt'
-                sh 'cat mpr-chethan.txt'
+                sh 'cat demo'
+                sh 'cat demo2'
             }
         }
     }
